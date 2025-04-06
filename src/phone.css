@@ -1,0 +1,96 @@
+#hom {
+    margin-left: 0px;
+}
+
+.op {
+    padding: 0px 10px;
+}
+
+#home {
+    height: 370px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 450px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+.image {
+    display: none;
+}
+
+#lower-second {
+    text-align-last: center;
+}
+
+.footer-bottom p {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+#footer-btn {
+    align-items: center;
+    ;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: #ffd000;
+    margin-top: 16px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: #ffd000;
+    width: 60%;
+}
+
+#hide-it {
+    display: none;
+}
+
+#explore {
+    align-items: center;
+    ;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: #ffd000;
+    margin-top: 16px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: #ffd000;
+    width: 60%;
+
+
+}
+
+
+.footer-title {
+    /* border-bottom: 2px solid #ffffff; */
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    padding-top: 58px;
+    margin-left: 43px;
+}
+
+
+
+#ul-article {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    margin-right: 19px;
+    position: relative;
+    top: -6rem;
+}
+
+
+.resume{margin-left:0em;
+}
+
+#downloadCV {margin-left: 7em; align-items: center;; border-radius: 0px;padding: 10px; background-color: #ffd000;margin-top: 16px; color: #000; font-family: 'Times New Roman', Times, serif; border-color: #ffd000; width: 40%;}
+    
+
+#row_{ margin-left: 0px;}

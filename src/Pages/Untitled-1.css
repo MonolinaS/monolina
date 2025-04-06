@@ -1,0 +1,298 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600;700&display=swap');
+body{
+  height:100vh;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+* {
+  box-sizing: border-box;
+}
+.row{
+  height:100%;
+  margin:auto;
+}
+.left-heading{
+  font-weight:700;
+  color:#273342;
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.left-paragraph{
+  color:gray;
+  padding-left:10px;
+  margin-top:20px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.left-column{
+  background-color:#fff;
+  float: left;
+  width: 60%;
+  padding: 25px;
+  align-items:center;
+  vertical-align:center;
+  height: 100%; /* Should be removed. Only for demonstration */
+  padding-top: 15%;
+}
+/* Create two equal columns that floats next to each other */
+.right-column {
+  background-image:url('https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80');
+  object-fit:cover;
+  background-position:50% 50%;
+  float: left;
+  width: 40%;
+  padding: 10px;
+  align-items:center;
+  vertical-align:center;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .left-column{
+    width: 100%;
+    height:auto;
+  }
+  .right-column {
+    width:97%;
+    margin:0 20px 0 10px;
+    border-radius:20px;
+  }
+
+  
+}
+
+
+  
+  .faq-card {
+    border-bottom: 1px solid #dce0e8;
+    border-radius: 6px;
+    padding: 24px 20px;
+    margin-bottom: 12px;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    margin-right: 200px;
+  
+  }
+  
+  
+
+  details > summary {
+	padding: 8px;
+	padding-left: 2.2rem;
+	border: none;
+	cursor: pointer;
+	list-style-position: inside;
+	/* border-bottom: 2px solid darkblue; */
+	position: relative;
+	display: block;
+	transition: all 1s;
+	/* font-family: var(--font1); */
+  }
+  
+  details[open] > summary {
+	color: rgb(255, 255, 255);
+	background-color: darkblue;
+	/* border-bottom: 2px solid skyblue; */
+	cursor: pointer;
+  }
+  
+
+
+
+
+  details > summary {
+	padding: 8px;
+	padding-left: 2.2rem;
+	border: none;
+	cursor: pointer;
+	list-style-position: inside;
+	/* border-bottom: 2px solid darkblue; */
+	position: relative;
+	display: block;
+	transition: all 1s;
+	/* font-family: var(--font1); */
+  }
+  
+  details[open] > summary {
+	color: rgb(255, 255, 255);
+	background-color: darkblue;
+	border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  
+  details > p {
+	padding: 8px;
+	border-bottom: 2px solid skyblue;
+	line-height: 2rem;
+	/* font-family: var(--font2); */
+  }
+  
+  summary:before {
+	content: "";
+	border-width: 0.4rem;
+	border-style: solid;
+	border-color: transparent transparent transparent darkblue;
+	position: absolute;
+	top: 0.9rem;
+	left: 1rem;
+	transform: rotate(0);
+	transform-origin: 0.2rem 50%;
+	transition: 0.25s transform ease;
+  }
+  
+  details summary::-webkit-details-marker {
+	display: none;
+  }
+  
+  details[open] > summary:before {
+	transform: rotate(90deg);
+	border-color: transparent transparent transparent rgb(255, 255, 255);
+  }
+  
+  /*CATEGORY*/
+.category {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.category > p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+    color: #5B5B5D;
+  font-weight: 100;
+}
+.bar {
+  height: 1px;
+background-color:#5B5B5D;
+  width:50px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* font awesome import */
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+
+.ul-circles * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.ul-circles {
+  --innerSize: 10rem;
+  --rimSize: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(var(--repeatVal, 1), calc(var(--innerSize)));
+  justify-content: center;
+  gap: var(--rimSize);
+font-size: 17px;
+margin: auto;
+
+  padding: var(--rimSize);
+  
+  list-style: none;
+}
+.ul-circles.ul-circles-vertical {
+  --repeatVal: 1;
+}
+
+.ul-circles > li {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: calc(var(--rimSize) / 16);
+  margin-top: 50px;
+  aspect-ratio: 1/1;
+  padding: calc(var(--rimSize) / 16);
+  border-radius: 50%;
+
+  text-align: center;
+  position: relative;
+}
+.ul-circles > li::before,
+.ul-circles > li::after {
+  content: "";
+  position: absolute;
+  aspect-ratio: 1/1;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.ul-circles > li::before {
+  width: calc(100% + calc(2 * var(--rimSize)));
+  left: calc(var(--rimSize) * -1);
+  top: calc(var(--rimSize) * -1);
+  background: var(--accent-color);
+  clip-path: polygon(
+    var(--clipX1, 0%) var(--clipY1, 0%),
+    var(--clipX2, 50%) var(--clipY1, 0%),
+    var(--clipX2, 50%) var(--clipY2, 100%),
+    var(--clipX1, 0%) var(--clipY2, 100%)
+  );
+  box-shadow: inset 2px -2px 10px rgba(255, 255, 255, 0.25),
+    inset -2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ul-circles > li:nth-child(even)::before {
+  --clipX1: 50%;
+  --clipX2: 100%;
+}
+
+@media (min-width: 40rem) {
+  .ul-circles {
+    --repeatVal: auto-fit;
+  }
+  .ul-circles:not(.ul-circles-vertical) > li:nth-child(even)::before {
+    --clipX1: 0%;
+    --clipY1: 0%;
+    --clipX2: 100%;
+    --clipY2: 50%;
+  }
+  .ul-circles:not(.ul-circles-vertical) > li:nth-child(odd)::before {
+    --clipX1: 0%;
+    --clipY1: 50%;
+    --clipX2: 100%;
+    --clipY2: 100%;
+  }
+}
+
+.ul-circles > li::after {
+  width: 100%;
+  background: #fdfdfd;
+  box-shadow: -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.ul-circles > li > i {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  align-self: end;
+  margin-bottom: 6px;
+}
+
+
+
+
+

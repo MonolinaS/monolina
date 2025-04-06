@@ -1,0 +1,535 @@
+/* @import url(@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,400italic,700,700italic|Roboto+Slab:400,100,300,700); */
+
+/* html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fff;
+} */
+
+
+
+
+/* if IE<=7 */
+
+/* .CV-page  {
+    width: 1100px;
+    font-family: "Futura", cursive;
+} */
+
+
+
+.CV-secondaryHeading {
+  position: relative;
+  margin: 2em 0 0;
+  text-transform: uppercase;
+}
+
+/* Grid
+  ****************************************************/
+
+.CV-grid {
+  display: table;
+
+}
+
+.CV-grid-column {
+  display: table-cell;
+  width: 1500px;
+
+}
+
+
+.CV-timeline {
+  position: relative;
+  margin: 0 0 0 0.5em;
+  padding-left: 1.5em;
+  border-left: solid 1px #222222;
+}
+
+.CV-timeline:first-of-type {
+  margin-top: 1em;
+}
+
+.CV-timeline:last-of-type {
+  border-left-color: transparent;
+}
+
+
+
+.CV-timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -0.5em;
+  display: block;
+  width: 1em;
+  height: 1em;
+  border: solid 1px #222222;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.CV-timeline-heading {
+  margin: 0;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  font-weight: normal;
+  -webkit-transform: translateY(-0.1em);
+  -ms-transform: translateY(-0.1em);
+  transform: translateY(-0.1em);
+}
+
+
+
+.CV-timeline-heading-title {
+  line-height: 1;
+  color: #00aef0;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.CV-timeline-heading-location {
+  font-size: 0.9em;
+  color: #8d8d8d;
+}
+
+.CV-timeline-heading-duration {
+  display: block;
+  font-size: 17px;
+  color: #6f6f6f;
+}
+
+.CV-timeline-details {
+  display: block;
+  margin: 0;
+  padding-bottom: 2em;
+  padding: 0 0 2em 1em;
+}
+
+/* list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
+  } */
+
+
+
+.CV-timeline-details-item {
+  margin-bottom: 0.5em;
+}
+
+
+
+
+
+
+
+
+.sub-head {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 70px;
+  margin-top: 50px;
+  background-color: #ffffff
+}
+
+.sub-head h1 {
+  margin-left: 20px;
+}
+
+.sub-head p {
+  margin-left: 20px;
+}
+
+.sub-head hr {
+  color: #ffffff;
+  height: 5px;
+  border-width: 4px;
+  border-color: #eeba2b;
+  opacity: 1;
+  margin-left: 20px;
+}
+
+
+
+.title-head {
+  color: rgb(159, 159, 0);
+  font-family: 'Lobster', cursive;
+}
+
+.title-head-hr {
+  display: block;
+  color: #ffe4e4;
+  border-width: 4px;
+  opacity: 1;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.logo-img {
+  margin: 0rem 1rem;
+  object-fit: contain;
+}
+
+.logo-img:hover {
+  border: 4px solid rgb(2, 85, 173);
+}
+
+.example {
+  position: relative;
+}
+
+.example p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  font-family: Quicksand, sans-serif;
+}
+
+.example img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+.banner {
+  padding: 6em 0 8em 0;
+  text-align: center;
+  width: 100%;
+  background-color: #dadada;
+  /* background-image: url(http://illusion.scene360.com/wp-content/uploads/2015/01/wes-anderson-12.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border1 {
+  width: 60%;
+  margin: 0 auto;
+  height: 47px;
+  border-top: 3px solid rgb(255, 255, 255);
+  border-right: 3px solid rgb(255, 255, 255);
+  border-left: 3px solid rgb(255, 255, 255);
+
+}
+
+.bot1 {
+
+  width: 60%;
+  margin: 0 auto;
+  height: 47px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  border-right: 3px solid rgb(255, 255, 255);
+  border-left: 3px solid rgb(255, 255, 255);
+
+
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 3em;
+  color: #000000;
+  text-align: center;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.5em; */
+  padding: 0.5em 0 0 0;
+}
+
+.banner p {
+  color: #000000;
+  font-size: 1em;
+  /* font-weight: bold; */
+  margin: 1em 0 0 0;
+  line-height: 2em;
+  /* letter-spacing: 2px; */
+  padding: 0 0 2em 0;
+}
+
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8rem;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+li p {
+  margin-top: 1rem;
+  font-family: system-ui;
+  text-align: center;
+  list-style-type: none
+}
+
+.sponsor img {
+  aspect-ratio: 1 / 1;
+  width: 80%;
+  object-fit: contain;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0.3125rem;
+}
+
+hr {
+  width: 18.75rem;
+  margin: 0.9375rem auto;
+  color: #ffd000;
+
+  border-top: 3px solid #ffd000;
+  opacity: 1;
+}
+
+
+
+
+
+/*removes original number*/
+.et_pb_text ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.et_pb_text ol li {
+  display: block;
+}
+
+.et_pb_text ol li:before {
+  content: counter(item)".";
+  counter-increment: item;
+}
+
+/*large-number font*/
+.et_pb_text ol li:before {
+  position: absolute;
+  margin-left: -70px;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  color: #ccc;
+}
+
+/*Heading font*/
+.et_pb_text ol li {
+  font: 16px Open Sans, sans-serif;
+  line-height: 32px;
+  padding-left: 60px;
+  color: #000;
+  position: relative;
+}
+
+/*paragraph font*/
+.et_pb_text li p {
+  font: 14px Open Sans, sans-serif;
+  line-height: 20px;
+  color: #555;
+  text-align: left;
+}
+
+/*width and style of list*/
+.et_pb_text ol {
+  max-width: 600px;
+  /*remove if full width*/
+  text-align: left;
+}
+
+/*generic alignment*/
+.et_pb_text ol li {
+  text-indent: 0 !important;
+  padding-left: 20px !important;
+  list-style-position: outside;
+  margin-left: 20px;
+  list-style-type: number;
+  text-align: left;
+}
+
+.et_pb_text ol li {
+  text-indent: 0 !important;
+  padding-left: 20px !important;
+  list-style-position: outside;
+  margin-left: 20px;
+  padding-bottom: 30px;
+
+}
+
+.et_pb_text ol {
+  margin-left: 300px;
+
+}
+
+
+
+
+
+.blockquote {
+  padding: 20px;
+}
+
+.quote {
+  font-size: 0.9em;
+  max-width: 600px;
+  line-height: 1.4;
+  /* font-style: italic; */
+}
+
+.author {
+  float: right;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.quote-icon {
+  margin-bottom: 10px;
+}
+
+.blockquote hr {
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.faq-heading {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.faq-card {
+  border-bottom: 1px solid #dce0e8;
+  border-radius: 6px;
+  padding: 24px 20px;
+  margin-bottom: 12px;
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.faq-open-icon {
+  font-size: 1.2em;
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  font-weight: 700;
+}
+
+details[open] .faq-open-icon {
+  top: 18px;
+  right: 24px;
+}
+
+details>summary {
+  list-style: none;
+}
+
+details>summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary {
+  color: #0186ff;
+  font-weight: 500;
+}
+
+details[open] .faq-card-spoiler {
+  display: inline-block;
+  padding-top: 8px;
+  color: #8b8b9a;
+}
+
+.faq-aftertext {
+  text-align: center;
+  color: #8b8b9a;
+}
+
+
+
+.container {}
+
+.image img {
+  height: 300px;
+  width: 300px;
+  box-shadow: 20px 20px grey;
+}
+
+.grid {
+  display: flex;
+  background-color: light-grey;
+  padding: 100px;
+}
+
+.text {
+  padding: 8px 180px 50px;
+}
+
+.mybutton {
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffd000;
+  border-color: #ffd000;
+  border-width: 1px;
+  gap: 60px;
+
+}
+
+.mybutton:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-color: #ffd000;
+  border-width: 1px;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 80px;
+  margin-top: 200px;
+  margin-left: 155px;
+  margin-right: 155px;
+  color: inherit;
+  background-color: #fdd331;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+#footer-btn:hover {
+  background-color: #ffffff;
+}
